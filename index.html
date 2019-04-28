@@ -5,12 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="animate.css">
+    <script src='basic.js'></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Condensed|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Static Web Page v.2</title>
 </head>
 <body>
-    <div>
-        <h1>PAGE ONE</h1>
+    <nav>
+    <div id='mySidebar' class='sidebar'>
+        <a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>
+        <a href="#functions">Functions</a>
+        <a href="#arrays">Arrays</a>
+        <a href="#conditionals">Conditionals</a>
+        <a href='https://www.w3schools.com/' target='_blank'>W3 Schools</a>
+        <a href='https://css-tricks.com/' target='_blank'>CSS Tricks</a>
+        <a href='https://htmlcheatsheet.com/js/' target='_blank'>Javascript Cheetsheet</a>
     </div>
+    <div id='main'>
+        <button class='openbtn' onclick='openNav()'>&#9776;</button>
+    </div>
+    </nav>
+    <div class='main'>
+        <!--------Header-------->
+        <section>
+            <div class='headerMain'>
+                <hr>
+                <h1 class='h1 animated zoomIn'>JS insights</h1>
+                <hr>
+            </div>
+        </section>
+        <!--------Parallax One-------->
+        <section>
+            <div class='parallaxOne' id='functions'>
+                <h2 class='h2One'>Functions</h2>
+            </div>
+        </section>
+        <!--------Article One-------->
+        <article>
+            <div class='boxOne'>
+                <div class='codeSnippet'>
+                    <p>Functions are an important piece of anyones Javascript journey. Essentially, they are more complex piece of code that can be used to manipulate other pieces of code or data within your application. A function could look like this: </p>    
+                    <pre class='prettyprint'>
+                        <code>
+                            function spaces() {
+                                for (var i = 1; i &lt;=3; i++) {
+                                    console.log(' ');  //   creates a spaces
+                                }
+                            }
+                        </code> 
+                    </pre>
+                    <p>To be more specific, a function is defined by a keyword which is followed by parentheses. Inside the parentheses, one can list the parameters of the function. Those parameters are what become the arguments to which the function actually performs the manipulation on.  </p>
+                </div>
+            </div>
+        </article>
+        <!--------Parallax Two-------->
+        <section>
+            <div class='parallaxTwo' id='arrays'>
+                <h2 class='h2Two'>Arrays</h2>
+            </div>
+        </section>
+        <!--------Article Two-------->
+        <article>
+            <div class='boxTwo'>
+                <div class='codeSnippet'>
+                    <p>Arrays are another comment element of Javascript that you will routinely run into. At their simplest definition, arrays are an oredered box or container that holds a variety of elements. There a whole slew of things that you can do to arrays to make them work the way you need them too. One thing to keep in mind though, for the beginner, is that you begin counting elements with zero. Here is an example of an array:  </p>    
+                    <pre class='prettyprint'>
+                        <code>
+                            let arr = [1, 2, 3, 4, 5, 6];
+                            //         0  1  2  3  4  5 
+                        </code> 
+                    </pre>
+                    <p>Arrays are a type of variable that can hold more than one value at a time in an ordered way. They can hold one item or even hundreds. Arrays are very versatile. </p>
+                </div>
+            </div>
+        </article>
+        <!--------Parallax Three-------->
+        <section>
+            <div class='parallaxThree' id='conditionals'>
+                <h2 class='h2Three'>Conditionals</h2>
+            </div>
+        </section>
+        <!--------Article Three-------->
+        <article>
+            <div class='boxThree'>
+                <div class='codeSnippet'>
+                    <p>Conditionals are a very interesting element of Javascript as they let you perform something if a condition is met. If the condition hasn't been met, then the provided code will perform a specific task. This is what a conditional could look like: <p>            
+                    <pre class='prettyprint'>
+                        <code>
+                           if (condition) {
+                               //perform some duty...could be a function
+                           } else {
+                               //perform this duty instead
+                           }
+                        </code>         
+                    </pre>
+                    <p>Conditionals are often called 'if-statements' or 'if-else-statements'. Essentially, the 'if-statement' checks for a specific kind of condition and then if that condition is true, it will run a specific function or perform a duty, else, if the condition isn't met or is false, it will perform a different duty or function. </p>
+                </div>    
+            </div>
+        </article>
+    </div>
+    <footer>
+        <div class='divFooter'>
+        <!-- <hr class='hrFooter'> -->
+        <p id='pFooter'>created by Chase Parker, 2019</p>
+        </div>
+    </footer>
+    
 </body>
 </html>

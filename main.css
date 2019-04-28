@@ -1,7 +1,245 @@
-body {
-    background-color: lightblue;
+
+/*------------------NAV BAR--------------------*/
+
+/* The sidebar menu */
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0;
+background-color: #111; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
 
-div {
-    background-color: lightpink;
+/* The sidebar links */
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.openbtn:hover {
+background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+transition: margin-left .5s; /* If you want a transition effect */
+padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+
+
+/*----------------Articles/Boxes/Footer---------------*/
+
+article {
+    display: block;
+}
+
+.headerMain {
+    /* padding-top: 5em; */
+    width: 100vm;
+    padding: 40px;
+    /* padding-bottom: 5em; */
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+.boxOne {
+    padding-top: 5em;
+    width: 100vm;
+    padding-bottom: 5em;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+.boxTwo{
+    padding-top: 5em;
+    padding: 40px;
+    width: 100vm;
+    padding-bottom: 5em;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+.boxThree {
+    padding-top: 5em;
+    width: 100vm;
+    padding-bottom: 5em;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+footer {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    background-color: rgb(201, 201, 201);
+    position: relative;
+}
+
+/*------------------Parallax--------------------*/
+.parallaxOne {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(assets/ancient-architecture-asia-301614.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+.parallaxTwo {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(assets/apartment-architectural-design-architecture-1115804.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+.parallaxThree {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(assets/architecture-clouds-lighthouse-2147459.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+/*---------------STYLING---------------*/
+.h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.2em;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 250;
+    display: flex;
+}
+
+.h2One {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold */
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 200px;
+}
+
+.h2Two {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold */
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 200px;
+}
+
+.h2Three {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold */
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 200px;
+}
+
+hr {
+    width: 265px;
+    border-color: black;
+}
+
+.hrFooter {
+    width: 800px;
+    border-color: black;
+}
+
+.divFooter {
+    float: center;
+}
+
+.prettyprint {
+    text-align: left;
+}
+
+.codeSnippet {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#pFooter {
+    margin: 0 0 0 calc(50vw + 25%);
 }
