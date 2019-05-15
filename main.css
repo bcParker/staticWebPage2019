@@ -135,7 +135,7 @@ footer {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(assets/apartment-architectural-design-architecture-1115804.jpg); 
+    background-image: url(assets/bloom-blossom-cherry-blossom-54630.jpg); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -150,7 +150,7 @@ footer {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(assets/architecture-clouds-lighthouse-2147459.jpg); 
+    background-image: url(assets/blue-sky-clear-sky-environment-1571746.jpg); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -181,11 +181,10 @@ p {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    /* font-weight: bold */
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    padding-left: 200px;
+    padding-left: 820px;
 }
 
 .h2Two {
@@ -199,7 +198,7 @@ p {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    padding-left: 200px;
+    padding-left: 850px;
 }
 
 .h2Three {
@@ -213,7 +212,7 @@ p {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    padding-left: 200px;
+    padding-left: 765px;
 }
 
 hr {
